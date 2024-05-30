@@ -10,6 +10,7 @@ public class App {
 
         for (Empleado empleado : empleados) {
             System.out.println("Empleado: " + empleado.getnombre());
+            System.out.println("ID del empleado: "+ empleado.getId());
             System.out.println("Salario mensual: " + empleado.salario());
         }
 
